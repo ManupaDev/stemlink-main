@@ -360,6 +360,15 @@ img {
 .footer {
   padding: 10rem 3rem;
   background-color: #37383d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-logo img{
+  text-decoration: none!important;
+  width: 200px;
 }
 
 .footer__nav {
@@ -370,9 +379,9 @@ img {
 }
 
 .footer__item {
-  margin-right: 4rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
 }
-
 .footer__link {
   font-size: 1.6rem;
   color: #eee;
