@@ -286,9 +286,14 @@ img {
 }
 .course-content h2{
   font-size: 3.6rem;
+  padding-top: 40px;
+  padding-bottom: 20px;
 }
 
-.course-content-list{
+.course-content-list h4{
+  line-height: 200%;
+  margin-left: 0;
+  font-weight: 300 !important;
 
 }
 
@@ -302,6 +307,14 @@ img {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   
+}
+
+.robotics-course .class--heading{
+
+  background: -webkit-linear-gradient(60deg, #6597d4, #e1699d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
 }
 .python-course .class--heading{
   background: -webkit-linear-gradient(60deg, #FFA17F, #00223E);
@@ -341,12 +354,14 @@ img {
 .crypto-course .accordion-button{
   background-image: linear-gradient(to right, #9dfbc8 , #f5f186);
 }
+
 #robotics .accordion-button {
-  background-color: #fffc3f67;
+  background: linear-gradient(to right, #dae2f8, #d6a4a4); 
 }
 #photoshop .accordion-button {
   background-color: #fffc3f67;
 }
+
 
 
 .ALevel .accordion-button {
@@ -380,6 +395,10 @@ img {
   padding: 2rem 5rem;
   background-image: linear-gradient(to right, #9dfbc8 , #f5f186);
 }
+.robotics-course{
+  padding: 2rem 5rem;
+  background: linear-gradient(to right, #dae2f8, #d6a4a4); 
+}
 .course {
   padding: 2rem 5rem;
   margin-bottom: 7rem;
@@ -408,6 +427,9 @@ img {
 }
 .crypto-course .accordion-body{
   background-image: linear-gradient(to right, #9dfbc8 , #f5f186);
+}
+.robotics-course .accordion-body{
+  background-image: linear-gradient(to right, #dae2f8, #d6a4a4)!important; 
 }
 .accordion-body img{
   border-radius: 10px;
@@ -744,6 +766,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 30px;
   }
   .class--box {
     width: 90%;
