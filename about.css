@@ -283,6 +283,8 @@ img {
 }
 .course-content{
   margin-top: 50px !important;
+  display: flex;
+  flex-direction: column;
 }
 .course-content h2{
   font-size: 3.6rem;
