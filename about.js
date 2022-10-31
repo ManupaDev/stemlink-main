@@ -17,17 +17,13 @@ function toggle() {
 
   if (state == true) {
     collapsenavbar.classList.remove("mobile-navbar-edit");
-    collapsenavbar.classList.remove("animation-class-remove-nav");
-    collapsenavbar.classList.add("animation-class-nav");
-    navlogo.classList.add("nav__logo-mobile-edit");
+    
     collapsenavbar.style.left = "0px";
 
     console.log("showing");
   } else {
     collapsenavbar.classList.add("mobile-navbar-edit");
-    collapsenavbar.classList.add("animation-class-remove-nav");
-    collapsenavbar.classList.remove("animation-class-nav");
-    navlogo.classList.remove("nav__logo-mobile-edit");
+    
     collapsenavbar.style.left = "-45%";
 
     console.log("hidden");
